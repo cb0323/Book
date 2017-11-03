@@ -1,0 +1,17 @@
+@keyframes fadeInUp {
+    0%{transform: translateY(100px);opacity: 0;}/**/
+    100%{transform: translateY(0px);opacity: 1;}
+}
+.sec1-info,.sec1-vip{
+    animation: fadeInUp 1s ease 0.5s 1 both;
+}
+.screen-area{animation: fadeInUp 1s ease 3s 1 both;}
+
+@keyframes rollToRight {
+0%{opacity:0;transform:rotate(-180deg) translateX(-100px)}
+100%{opacity:1;transform:rotate(0deg) translateX(10px)}
+
+}
+.current .icon{
+    animation:rollToRight 1s ease 0.5s 1 both ;
+}
